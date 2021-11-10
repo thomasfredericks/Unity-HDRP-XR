@@ -897,6 +897,33 @@
                     "isPartOfComposite": true
                 }
             ]
+        },
+        {
+            "name": "Keyboard",
+            "id": "170ba571-5fa7-4530-b1f7-2d81f06ec044",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "1be440f1-728e-4a4c-93cd-4d79a29e81f4",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "647777e8-aa87-4cff-bfda-035ae0f80bbd",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Generic XR Controller;Continuous Move",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": [
